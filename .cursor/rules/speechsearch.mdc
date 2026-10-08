@@ -1,0 +1,10 @@
+---
+description: SpeechSearch conventions (Hebrew RTL, Supabase RLS, repo layer)
+alwaysApply: true
+---
+- Read `CLAUDE.md` in the repo root first; it lists the project rules.
+- Hebrew UI, feminine address, RTL: use logical Tailwind utilities (`ms-`/`pe-`/`start-`/`end-`).
+- Data only through `lib/data` (`repo`); implement every method in both `supabase.ts` and `demo.ts`.
+- Database changes = new migration file in `supabase/migrations`, with RLS. Do not edit old migrations.
+- Secrets never in `NEXT_PUBLIC_*`, never in the repo, never pasted into chat. `.env.local` is git-ignored.
+- Plan mode first for large changes; run `npm run typecheck && npm run lint && npm run build` before finishing.

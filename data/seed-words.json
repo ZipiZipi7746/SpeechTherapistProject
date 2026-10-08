@@ -1,0 +1,3301 @@
+{
+ "categories": [
+  {
+   "slug": "stops",
+   "name_he": "עוצרים (פלוסיבים)",
+   "description_he": "צלילים שנוצרים כשהאוויר נעצר לרגע ונפלט בבת אחת — למשל /פ/, /ב/, /ט/, /ד/, /ק/, /ג/."
+  },
+  {
+   "slug": "fricatives",
+   "name_he": "חוככים (פריקטיבים)",
+   "description_he": "צלילים שנוצרים מחיכוך של אוויר רצוף במעבר צר — למשל /ש/, /ס/, /ז/, /ח/, /ה/."
+  },
+  {
+   "slug": "affricates",
+   "name_he": "אפריקטים",
+   "description_he": "צלילים משולבים: עצירה שמשתחררת לחיכוך — למשל /צ/ ו-/ג׳/."
+  },
+  {
+   "slug": "nasals",
+   "name_he": "נזליים",
+   "description_he": "צלילים שהאוויר עובר בהם דרך האף — /מ/ ו-/נ/."
+  },
+  {
+   "slug": "liquids",
+   "name_he": "נוזליים",
+   "description_he": "צלילים זורמים ו\"גליליים\" שקשים לרכישה — /ל/ ו-/ר/."
+  },
+  {
+   "slug": "glides",
+   "name_he": "גלישים ותחילת תנועה",
+   "description_he": "מילים שמתחילות בתנועה או בגלישה — /י/, /א/, /ע/."
+  }
+ ],
+ "words": [
+  {
+   "slug": "seed-001",
+   "text": "שׁוּלְחָן",
+   "plain_text": "שולחן",
+   "syllable_count": 2,
+   "letter_count": 5,
+   "vowels": [
+    "u",
+    "a"
+   ],
+   "primary_phoneme": "ש",
+   "category": "fricatives",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🪑",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-002",
+   "text": "שָׁמַיִם",
+   "plain_text": "שמים",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "a",
+    "i"
+   ],
+   "primary_phoneme": "ש",
+   "category": "fricatives",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "☁️",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-003",
+   "text": "שְׂפָתַיִם",
+   "plain_text": "שפתים",
+   "syllable_count": 3,
+   "letter_count": 5,
+   "vowels": [
+    "e",
+    "a",
+    "a",
+    "i"
+   ],
+   "primary_phoneme": "ש",
+   "category": "fricatives",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "👄",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-004",
+   "text": "שֶׁמֶשׁ",
+   "plain_text": "שמש",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "ש",
+   "category": "fricatives",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "☀️",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-005",
+   "text": "שֵׁן",
+   "plain_text": "שן",
+   "syllable_count": 1,
+   "letter_count": 2,
+   "vowels": [
+    "e"
+   ],
+   "primary_phoneme": "ש",
+   "category": "fricatives",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🦷",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-006",
+   "text": "שָׁעוֹן",
+   "plain_text": "שעון",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "o"
+   ],
+   "primary_phoneme": "ש",
+   "category": "fricatives",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "⏰",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-007",
+   "text": "שׁוֹקוֹלָד",
+   "plain_text": "שוקולד",
+   "syllable_count": 3,
+   "letter_count": 6,
+   "vowels": [
+    "o",
+    "o",
+    "a"
+   ],
+   "primary_phoneme": "ש",
+   "category": "fricatives",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🍫",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-008",
+   "text": "שַׁרְשֶׁרֶת",
+   "plain_text": "שרשרת",
+   "syllable_count": 3,
+   "letter_count": 5,
+   "vowels": [
+    "a",
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "ש",
+   "category": "fricatives",
+   "age_min": 6,
+   "age_max": 7,
+   "difficulty": "hard",
+   "abstractness": "concrete",
+   "emoji": "📿",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-009",
+   "text": "שׁוּעָל",
+   "plain_text": "שועל",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "u",
+    "a"
+   ],
+   "primary_phoneme": "ש",
+   "category": "fricatives",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🦊",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-010",
+   "text": "שֶׁלֶג",
+   "plain_text": "שלג",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "ש",
+   "category": "fricatives",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "❄️",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-011",
+   "text": "שִׁיר",
+   "plain_text": "שיר",
+   "syllable_count": 1,
+   "letter_count": 3,
+   "vowels": [
+    "i"
+   ],
+   "primary_phoneme": "ש",
+   "category": "fricatives",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🎵",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-012",
+   "text": "שַׂקִּית",
+   "plain_text": "שקית",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "i"
+   ],
+   "primary_phoneme": "ש",
+   "category": "fricatives",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🛍️",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-013",
+   "text": "שָׁפָן",
+   "plain_text": "שפן",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "ש",
+   "category": "fricatives",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🐰",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-014",
+   "text": "שִׂמְחָה",
+   "plain_text": "שמחה",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "i",
+    "a"
+   ],
+   "primary_phoneme": "ש",
+   "category": "fricatives",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "abstract",
+   "emoji": "😊",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-015",
+   "text": "שֶׁקֶט",
+   "plain_text": "שקט",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "ש",
+   "category": "fricatives",
+   "age_min": 6,
+   "age_max": 7,
+   "difficulty": "hard",
+   "abstractness": "abstract",
+   "emoji": "🤫",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-016",
+   "text": "פִּיל",
+   "plain_text": "פיל",
+   "syllable_count": 1,
+   "letter_count": 3,
+   "vowels": [
+    "i"
+   ],
+   "primary_phoneme": "פ",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🐘",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-017",
+   "text": "פֶּרַח",
+   "plain_text": "פרח",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "a"
+   ],
+   "primary_phoneme": "פ",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🌸",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-018",
+   "text": "פָּרָה",
+   "plain_text": "פרה",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "פ",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🐄",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-019",
+   "text": "פַּרְפַּר",
+   "plain_text": "פרפר",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "פ",
+   "category": "stops",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🦋",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-020",
+   "text": "פִּיצָה",
+   "plain_text": "פיצה",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "i",
+    "a"
+   ],
+   "primary_phoneme": "פ",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🍕",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-021",
+   "text": "פַּעֲמוֹן",
+   "plain_text": "פעמון",
+   "syllable_count": 3,
+   "letter_count": 5,
+   "vowels": [
+    "a",
+    "a",
+    "o"
+   ],
+   "primary_phoneme": "פ",
+   "category": "stops",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "hard",
+   "abstractness": "concrete",
+   "emoji": "🔔",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-022",
+   "text": "פַּטִּישׁ",
+   "plain_text": "פטיש",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "i"
+   ],
+   "primary_phoneme": "פ",
+   "category": "stops",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🔨",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-023",
+   "text": "פִּלְפֵּל",
+   "plain_text": "פלפל",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "i",
+    "e"
+   ],
+   "primary_phoneme": "פ",
+   "category": "stops",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🫑",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-024",
+   "text": "פָּנָס",
+   "plain_text": "פנס",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "פ",
+   "category": "stops",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🔦",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-025",
+   "text": "פַּחַד",
+   "plain_text": "פחד",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "פ",
+   "category": "stops",
+   "age_min": 6,
+   "age_max": 7,
+   "difficulty": "hard",
+   "abstractness": "abstract",
+   "emoji": "😨",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-026",
+   "text": "רַכֶּבֶת",
+   "plain_text": "רכבת",
+   "syllable_count": 3,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "ר",
+   "category": "liquids",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🚆",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-027",
+   "text": "רַדְיוֹ",
+   "plain_text": "רדיו",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "o"
+   ],
+   "primary_phoneme": "ר",
+   "category": "liquids",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "📻",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-028",
+   "text": "רֶגֶל",
+   "plain_text": "רגל",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "ר",
+   "category": "liquids",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🦶",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-029",
+   "text": "רַעַשׁ",
+   "plain_text": "רעש",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "ר",
+   "category": "liquids",
+   "age_min": 6,
+   "age_max": 7,
+   "difficulty": "hard",
+   "abstractness": "abstract",
+   "emoji": "🔊",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-030",
+   "text": "רֵיחַ",
+   "plain_text": "ריח",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "a"
+   ],
+   "primary_phoneme": "ר",
+   "category": "liquids",
+   "age_min": 6,
+   "age_max": 7,
+   "difficulty": "hard",
+   "abstractness": "abstract",
+   "emoji": "👃",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-031",
+   "text": "סֶרֶט",
+   "plain_text": "סרט",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "ס",
+   "category": "fricatives",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🎬",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-032",
+   "text": "אַרְנָב",
+   "plain_text": "ארנב",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "א",
+   "category": "glides",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🐇",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-033",
+   "text": "אַרְגָּז",
+   "plain_text": "ארגז",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "א",
+   "category": "glides",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "📦",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-034",
+   "text": "גֶּזֶר",
+   "plain_text": "גזר",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "ג",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🥕",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-035",
+   "text": "דֹּב",
+   "plain_text": "דב",
+   "syllable_count": 1,
+   "letter_count": 2,
+   "vowels": [
+    "o"
+   ],
+   "primary_phoneme": "ד",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🐻",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-036",
+   "text": "כּוֹכָב",
+   "plain_text": "כוכב",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "o",
+    "a"
+   ],
+   "primary_phoneme": "כ",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "⭐",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-037",
+   "text": "חָתוּל",
+   "plain_text": "חתול",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "u"
+   ],
+   "primary_phoneme": "ח",
+   "category": "fricatives",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🐱",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-038",
+   "text": "כֶּלֶב",
+   "plain_text": "כלב",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "כ",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🐶",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-039",
+   "text": "סוּס",
+   "plain_text": "סוס",
+   "syllable_count": 1,
+   "letter_count": 3,
+   "vowels": [
+    "u"
+   ],
+   "primary_phoneme": "ס",
+   "category": "fricatives",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🐴",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-040",
+   "text": "כַּדּוּר",
+   "plain_text": "כדור",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "u"
+   ],
+   "primary_phoneme": "כ",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "⚽",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-041",
+   "text": "מְכוֹנִית",
+   "plain_text": "מכונית",
+   "syllable_count": 3,
+   "letter_count": 6,
+   "vowels": [
+    "e",
+    "o",
+    "i"
+   ],
+   "primary_phoneme": "מ",
+   "category": "nasals",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🚗",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-042",
+   "text": "מָטוֹס",
+   "plain_text": "מטוס",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "o"
+   ],
+   "primary_phoneme": "מ",
+   "category": "nasals",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "✈️",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-043",
+   "text": "מְסוֹק",
+   "plain_text": "מסוק",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "e",
+    "o"
+   ],
+   "primary_phoneme": "מ",
+   "category": "nasals",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "hard",
+   "abstractness": "concrete",
+   "emoji": "🚁",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-044",
+   "text": "בָּלוֹן",
+   "plain_text": "בלון",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "o"
+   ],
+   "primary_phoneme": "ב",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🎈",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-045",
+   "text": "בַּיִת",
+   "plain_text": "בית",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "a",
+    "i"
+   ],
+   "primary_phoneme": "ב",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🏠",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-046",
+   "text": "בָּנָנָה",
+   "plain_text": "בננה",
+   "syllable_count": 3,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "ב",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🍌",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-047",
+   "text": "תַּפּוּז",
+   "plain_text": "תפוז",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "u"
+   ],
+   "primary_phoneme": "ת",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🍊",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-048",
+   "text": "תַּפּוּחַ",
+   "plain_text": "תפוח",
+   "syllable_count": 3,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "u",
+    "a"
+   ],
+   "primary_phoneme": "ת",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🍎",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-049",
+   "text": "תּוּת",
+   "plain_text": "תות",
+   "syllable_count": 1,
+   "letter_count": 3,
+   "vowels": [
+    "u"
+   ],
+   "primary_phoneme": "ת",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🍓",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-050",
+   "text": "דָּג",
+   "plain_text": "דג",
+   "syllable_count": 1,
+   "letter_count": 2,
+   "vowels": [
+    "a"
+   ],
+   "primary_phoneme": "ד",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🐟",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-051",
+   "text": "דְּלִי",
+   "plain_text": "דלי",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "i"
+   ],
+   "primary_phoneme": "ד",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🪣",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-052",
+   "text": "דֶּשֶׁא",
+   "plain_text": "דשא",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "ד",
+   "category": "stops",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🌱",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-053",
+   "text": "גָּמָל",
+   "plain_text": "גמל",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "ג",
+   "category": "stops",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🐫",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-054",
+   "text": "גְּלִידָה",
+   "plain_text": "גלידה",
+   "syllable_count": 3,
+   "letter_count": 5,
+   "vowels": [
+    "e",
+    "i",
+    "a"
+   ],
+   "primary_phoneme": "ג",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🍦",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-055",
+   "text": "גֶּשֶׁם",
+   "plain_text": "גשם",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "ג",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🌧️",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-056",
+   "text": "גִּ׳ירָפָה",
+   "plain_text": "גירפה",
+   "syllable_count": 3,
+   "letter_count": 5,
+   "vowels": [
+    "i",
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "ג",
+   "category": "stops",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🦒",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-057",
+   "text": "צְפַרְדֵּעַ",
+   "plain_text": "צפרדע",
+   "syllable_count": 3,
+   "letter_count": 5,
+   "vowels": [
+    "e",
+    "a",
+    "e"
+   ],
+   "primary_phoneme": "צ",
+   "category": "affricates",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🐸",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-058",
+   "text": "צֶבַע",
+   "plain_text": "צבע",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "a"
+   ],
+   "primary_phoneme": "צ",
+   "category": "affricates",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🎨",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-059",
+   "text": "צָמִיד",
+   "plain_text": "צמיד",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "i"
+   ],
+   "primary_phoneme": "צ",
+   "category": "affricates",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "📿",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-060",
+   "text": "צִפּוֹר",
+   "plain_text": "צפור",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "i",
+    "o"
+   ],
+   "primary_phoneme": "צ",
+   "category": "affricates",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🐦",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-061",
+   "text": "צַלַּחַת",
+   "plain_text": "צלחת",
+   "syllable_count": 3,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "צ",
+   "category": "affricates",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🍽️",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-062",
+   "text": "זֶבְּרָה",
+   "plain_text": "זברה",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "e",
+    "a"
+   ],
+   "primary_phoneme": "ז",
+   "category": "fricatives",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🦓",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-063",
+   "text": "זְבוּב",
+   "plain_text": "זבוב",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "e",
+    "u"
+   ],
+   "primary_phoneme": "ז",
+   "category": "fricatives",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🪰",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-064",
+   "text": "זְמַן",
+   "plain_text": "זמן",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "a"
+   ],
+   "primary_phoneme": "ז",
+   "category": "fricatives",
+   "age_min": 6,
+   "age_max": 7,
+   "difficulty": "hard",
+   "abstractness": "abstract",
+   "emoji": "⏳",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-065",
+   "text": "זַיִת",
+   "plain_text": "זית",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "a",
+    "i"
+   ],
+   "primary_phoneme": "ז",
+   "category": "fricatives",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🫒",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-066",
+   "text": "סַבָּא",
+   "plain_text": "סבא",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "ס",
+   "category": "fricatives",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "👴",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-067",
+   "text": "סֵפֶר",
+   "plain_text": "ספר",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "ס",
+   "category": "fricatives",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "📖",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-068",
+   "text": "סַל",
+   "plain_text": "סל",
+   "syllable_count": 1,
+   "letter_count": 2,
+   "vowels": [
+    "a"
+   ],
+   "primary_phoneme": "ס",
+   "category": "fricatives",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🧺",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-069",
+   "text": "סֻלָּם",
+   "plain_text": "סלם",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "u",
+    "a"
+   ],
+   "primary_phoneme": "ס",
+   "category": "fricatives",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🪜",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-070",
+   "text": "סִירָה",
+   "plain_text": "סירה",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "i",
+    "a"
+   ],
+   "primary_phoneme": "ס",
+   "category": "fricatives",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "⛵",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-071",
+   "text": "סַבּוֹן",
+   "plain_text": "סבון",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "o"
+   ],
+   "primary_phoneme": "ס",
+   "category": "fricatives",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🧼",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-072",
+   "text": "סַנְדָּל",
+   "plain_text": "סנדל",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "ס",
+   "category": "fricatives",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🩴",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-073",
+   "text": "חַלּוֹן",
+   "plain_text": "חלון",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "o"
+   ],
+   "primary_phoneme": "ח",
+   "category": "fricatives",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🪟",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-074",
+   "text": "חֲמוֹר",
+   "plain_text": "חמור",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "o"
+   ],
+   "primary_phoneme": "ח",
+   "category": "fricatives",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🫏",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-075",
+   "text": "חֻלְצָה",
+   "plain_text": "חלצה",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "u",
+    "a"
+   ],
+   "primary_phoneme": "ח",
+   "category": "fricatives",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "👕",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-076",
+   "text": "חֲנוּת",
+   "plain_text": "חנות",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "u"
+   ],
+   "primary_phoneme": "ח",
+   "category": "fricatives",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🏪",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-077",
+   "text": "חֲלוֹם",
+   "plain_text": "חלום",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "o"
+   ],
+   "primary_phoneme": "ח",
+   "category": "fricatives",
+   "age_min": 6,
+   "age_max": 7,
+   "difficulty": "hard",
+   "abstractness": "abstract",
+   "emoji": "💭",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-078",
+   "text": "הַר",
+   "plain_text": "הר",
+   "syllable_count": 1,
+   "letter_count": 2,
+   "vowels": [
+    "a"
+   ],
+   "primary_phoneme": "ה",
+   "category": "fricatives",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "⛰️",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-079",
+   "text": "הֶלִיקוֹפְּטֶר",
+   "plain_text": "הליקופטר",
+   "syllable_count": 4,
+   "letter_count": 8,
+   "vowels": [
+    "e",
+    "i",
+    "o",
+    "e"
+   ],
+   "primary_phoneme": "ה",
+   "category": "fricatives",
+   "age_min": 6,
+   "age_max": 7,
+   "difficulty": "hard",
+   "abstractness": "concrete",
+   "emoji": "🚁",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-080",
+   "text": "הַפְתָּעָה",
+   "plain_text": "הפתעה",
+   "syllable_count": 4,
+   "letter_count": 5,
+   "vowels": [
+    "a",
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "ה",
+   "category": "fricatives",
+   "age_min": 6,
+   "age_max": 7,
+   "difficulty": "hard",
+   "abstractness": "abstract",
+   "emoji": "🎁",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-081",
+   "text": "מַיִם",
+   "plain_text": "מים",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "a",
+    "i"
+   ],
+   "primary_phoneme": "מ",
+   "category": "nasals",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "💧",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-082",
+   "text": "מִטָּה",
+   "plain_text": "מטה",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "i",
+    "a"
+   ],
+   "primary_phoneme": "מ",
+   "category": "nasals",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🛏️",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-083",
+   "text": "מַפְתֵּחַ",
+   "plain_text": "מפתח",
+   "syllable_count": 3,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "e",
+    "a"
+   ],
+   "primary_phoneme": "מ",
+   "category": "nasals",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🔑",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-084",
+   "text": "מִבְרֶשֶׁת",
+   "plain_text": "מברשת",
+   "syllable_count": 3,
+   "letter_count": 5,
+   "vowels": [
+    "i",
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "מ",
+   "category": "nasals",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "hard",
+   "abstractness": "concrete",
+   "emoji": "🪥",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-085",
+   "text": "מְנוֹרָה",
+   "plain_text": "מנורה",
+   "syllable_count": 3,
+   "letter_count": 5,
+   "vowels": [
+    "e",
+    "o",
+    "a"
+   ],
+   "primary_phoneme": "מ",
+   "category": "nasals",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "💡",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-086",
+   "text": "מָרָק",
+   "plain_text": "מרק",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "מ",
+   "category": "nasals",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🍲",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-087",
+   "text": "מִטְרִיָּה",
+   "plain_text": "מטריה",
+   "syllable_count": 3,
+   "letter_count": 5,
+   "vowels": [
+    "i",
+    "i",
+    "a"
+   ],
+   "primary_phoneme": "מ",
+   "category": "nasals",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "☂️",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-088",
+   "text": "מַזְלֵג",
+   "plain_text": "מזלג",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "e"
+   ],
+   "primary_phoneme": "מ",
+   "category": "nasals",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🍴",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-089",
+   "text": "מַחְשֵׁב",
+   "plain_text": "מחשב",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "e"
+   ],
+   "primary_phoneme": "מ",
+   "category": "nasals",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "💻",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-090",
+   "text": "נַעַל",
+   "plain_text": "נעל",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "נ",
+   "category": "nasals",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "👟",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-091",
+   "text": "נֵר",
+   "plain_text": "נר",
+   "syllable_count": 1,
+   "letter_count": 2,
+   "vowels": [
+    "e"
+   ],
+   "primary_phoneme": "נ",
+   "category": "nasals",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🕯️",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-092",
+   "text": "נְמָלָה",
+   "plain_text": "נמלה",
+   "syllable_count": 3,
+   "letter_count": 4,
+   "vowels": [
+    "e",
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "נ",
+   "category": "nasals",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🐜",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-093",
+   "text": "נָחָשׁ",
+   "plain_text": "נחש",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "נ",
+   "category": "nasals",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🐍",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-094",
+   "text": "עָנָן",
+   "plain_text": "ענן",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "ע",
+   "category": "glides",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "☁️",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-095",
+   "text": "לֶחֶם",
+   "plain_text": "לחם",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "ל",
+   "category": "liquids",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🍞",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-096",
+   "text": "לֵב",
+   "plain_text": "לב",
+   "syllable_count": 1,
+   "letter_count": 2,
+   "vowels": [
+    "e"
+   ],
+   "primary_phoneme": "ל",
+   "category": "liquids",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "❤️",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-097",
+   "text": "לִימוֹן",
+   "plain_text": "לימון",
+   "syllable_count": 2,
+   "letter_count": 5,
+   "vowels": [
+    "i",
+    "o"
+   ],
+   "primary_phoneme": "ל",
+   "category": "liquids",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🍋",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-098",
+   "text": "לֵיצָן",
+   "plain_text": "ליצן",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "e",
+    "a"
+   ],
+   "primary_phoneme": "ל",
+   "category": "liquids",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🤡",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-099",
+   "text": "קוֹף",
+   "plain_text": "קוף",
+   "syllable_count": 1,
+   "letter_count": 3,
+   "vowels": [
+    "o"
+   ],
+   "primary_phoneme": "ק",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🐒",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-100",
+   "text": "קֶשֶׁת",
+   "plain_text": "קשת",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "ק",
+   "category": "stops",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🌈",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-101",
+   "text": "קֻבִּיָּה",
+   "plain_text": "קביה",
+   "syllable_count": 3,
+   "letter_count": 4,
+   "vowels": [
+    "u",
+    "i",
+    "a"
+   ],
+   "primary_phoneme": "ק",
+   "category": "stops",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🎲",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-102",
+   "text": "קִפּוֹד",
+   "plain_text": "קפוד",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "i",
+    "o"
+   ],
+   "primary_phoneme": "ק",
+   "category": "stops",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🦔",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-103",
+   "text": "כִּסֵּא",
+   "plain_text": "כסא",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "i",
+    "e"
+   ],
+   "primary_phoneme": "כ",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "💺",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-104",
+   "text": "תַּרְנְגוֹל",
+   "plain_text": "תרנגול",
+   "syllable_count": 3,
+   "letter_count": 6,
+   "vowels": [
+    "a",
+    "e",
+    "o"
+   ],
+   "primary_phoneme": "ת",
+   "category": "stops",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "hard",
+   "abstractness": "concrete",
+   "emoji": "🐓",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-105",
+   "text": "תְּמוּנָה",
+   "plain_text": "תמונה",
+   "syllable_count": 3,
+   "letter_count": 5,
+   "vowels": [
+    "e",
+    "u",
+    "a"
+   ],
+   "primary_phoneme": "ת",
+   "category": "stops",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🖼️",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-106",
+   "text": "תִּיק",
+   "plain_text": "תיק",
+   "syllable_count": 1,
+   "letter_count": 3,
+   "vowels": [
+    "i"
+   ],
+   "primary_phoneme": "ת",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🎒",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-107",
+   "text": "טֶלֶפוֹן",
+   "plain_text": "טלפון",
+   "syllable_count": 3,
+   "letter_count": 5,
+   "vowels": [
+    "e",
+    "e",
+    "o"
+   ],
+   "primary_phoneme": "ט",
+   "category": "stops",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "📞",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-108",
+   "text": "טְרַקְטוֹר",
+   "plain_text": "טרקטור",
+   "syllable_count": 3,
+   "letter_count": 6,
+   "vowels": [
+    "e",
+    "a",
+    "o"
+   ],
+   "primary_phoneme": "ט",
+   "category": "stops",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "hard",
+   "abstractness": "concrete",
+   "emoji": "🚜",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-109",
+   "text": "טַבַּעַת",
+   "plain_text": "טבעת",
+   "syllable_count": 3,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "ט",
+   "category": "stops",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "💍",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-110",
+   "text": "יָד",
+   "plain_text": "יד",
+   "syllable_count": 1,
+   "letter_count": 2,
+   "vowels": [
+    "a"
+   ],
+   "primary_phoneme": "י",
+   "category": "glides",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "✋",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-111",
+   "text": "יָרֵחַ",
+   "plain_text": "ירח",
+   "syllable_count": 3,
+   "letter_count": 3,
+   "vowels": [
+    "a",
+    "e",
+    "a"
+   ],
+   "primary_phoneme": "י",
+   "category": "glides",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🌙",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-112",
+   "text": "יוֹנָה",
+   "plain_text": "יונה",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "o",
+    "a"
+   ],
+   "primary_phoneme": "י",
+   "category": "glides",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🕊️",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-113",
+   "text": "יֶלֶד",
+   "plain_text": "ילד",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "י",
+   "category": "glides",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🧒",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-114",
+   "text": "אֲבַטִּיחַ",
+   "plain_text": "אבטיח",
+   "syllable_count": 3,
+   "letter_count": 5,
+   "vowels": [
+    "a",
+    "a",
+    "i"
+   ],
+   "primary_phoneme": "א",
+   "category": "glides",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🍉",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-115",
+   "text": "אַרְיֵה",
+   "plain_text": "אריה",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "e"
+   ],
+   "primary_phoneme": "א",
+   "category": "glides",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🦁",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-116",
+   "text": "אוֹטוֹ",
+   "plain_text": "אוטו",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "o",
+    "o"
+   ],
+   "primary_phoneme": "א",
+   "category": "glides",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🚙",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-117",
+   "text": "אַף",
+   "plain_text": "אף",
+   "syllable_count": 1,
+   "letter_count": 2,
+   "vowels": [
+    "a"
+   ],
+   "primary_phoneme": "א",
+   "category": "glides",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "👃",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-118",
+   "text": "אֹזֶן",
+   "plain_text": "אזן",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "o",
+    "e"
+   ],
+   "primary_phoneme": "א",
+   "category": "glides",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "👂",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-119",
+   "text": "אוֹפַנַּיִם",
+   "plain_text": "אופנים",
+   "syllable_count": 3,
+   "letter_count": 6,
+   "vowels": [
+    "o",
+    "a",
+    "i"
+   ],
+   "primary_phoneme": "א",
+   "category": "glides",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🚲",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-120",
+   "text": "אַבָּא",
+   "plain_text": "אבא",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "א",
+   "category": "glides",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "👨",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-121",
+   "text": "אִמָּא",
+   "plain_text": "אמא",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "i",
+    "a"
+   ],
+   "primary_phoneme": "א",
+   "category": "glides",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "👩",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-122",
+   "text": "עֵץ",
+   "plain_text": "עץ",
+   "syllable_count": 1,
+   "letter_count": 2,
+   "vowels": [
+    "e"
+   ],
+   "primary_phoneme": "ע",
+   "category": "glides",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🌳",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-123",
+   "text": "עַיִן",
+   "plain_text": "עין",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "a",
+    "i"
+   ],
+   "primary_phoneme": "ע",
+   "category": "glides",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "👁️",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-124",
+   "text": "עוּגָה",
+   "plain_text": "עוגה",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "u",
+    "a"
+   ],
+   "primary_phoneme": "ע",
+   "category": "glides",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🎂",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-125",
+   "text": "עַכְבָּר",
+   "plain_text": "עכבר",
+   "syllable_count": 2,
+   "letter_count": 4,
+   "vowels": [
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "ע",
+   "category": "glides",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🐭",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-126",
+   "text": "עַגְבָנִיָּה",
+   "plain_text": "עגבניה",
+   "syllable_count": 4,
+   "letter_count": 6,
+   "vowels": [
+    "a",
+    "a",
+    "i",
+    "a"
+   ],
+   "primary_phoneme": "ע",
+   "category": "glides",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "hard",
+   "abstractness": "concrete",
+   "emoji": "🍅",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-127",
+   "text": "עִפָּרוֹן",
+   "plain_text": "עפרון",
+   "syllable_count": 3,
+   "letter_count": 5,
+   "vowels": [
+    "i",
+    "a",
+    "o"
+   ],
+   "primary_phoneme": "ע",
+   "category": "glides",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "✏️",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-128",
+   "text": "וֶרֶד",
+   "plain_text": "ורד",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "ו",
+   "category": "fricatives",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🌹",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-129",
+   "text": "וִילוֹן",
+   "plain_text": "וילון",
+   "syllable_count": 2,
+   "letter_count": 5,
+   "vowels": [
+    "i",
+    "o"
+   ],
+   "primary_phoneme": "ו",
+   "category": "fricatives",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🪟",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-130",
+   "text": "בַּקְבּוּק",
+   "plain_text": "בקבוק",
+   "syllable_count": 2,
+   "letter_count": 5,
+   "vowels": [
+    "a",
+    "u"
+   ],
+   "primary_phoneme": "ב",
+   "category": "stops",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🍼",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-131",
+   "text": "בֶּרֶז",
+   "plain_text": "ברז",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "ב",
+   "category": "stops",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🚰",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-132",
+   "text": "בֻּבָּה",
+   "plain_text": "בבה",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "u",
+    "a"
+   ],
+   "primary_phoneme": "ב",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 4,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🪆",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-133",
+   "text": "בָּצָל",
+   "plain_text": "בצל",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "ב",
+   "category": "stops",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🧅",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-134",
+   "text": "דְּבוֹרָה",
+   "plain_text": "דבורה",
+   "syllable_count": 3,
+   "letter_count": 5,
+   "vowels": [
+    "e",
+    "o",
+    "a"
+   ],
+   "primary_phoneme": "ד",
+   "category": "stops",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🐝",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-135",
+   "text": "דּוֹבְדְּבָן",
+   "plain_text": "דובדבן",
+   "syllable_count": 3,
+   "letter_count": 6,
+   "vowels": [
+    "o",
+    "e",
+    "a"
+   ],
+   "primary_phoneme": "ד",
+   "category": "stops",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "hard",
+   "abstractness": "concrete",
+   "emoji": "🍒",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-136",
+   "text": "דֶּלֶת",
+   "plain_text": "דלת",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "ד",
+   "category": "stops",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🚪",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-137",
+   "text": "דְּבַשׁ",
+   "plain_text": "דבש",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "a"
+   ],
+   "primary_phoneme": "ד",
+   "category": "stops",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🍯",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-138",
+   "text": "גֶּרֶב",
+   "plain_text": "גרב",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "ג",
+   "category": "stops",
+   "age_min": 3,
+   "age_max": 5,
+   "difficulty": "easy",
+   "abstractness": "concrete",
+   "emoji": "🧦",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-139",
+   "text": "גְּבִינָה",
+   "plain_text": "גבינה",
+   "syllable_count": 3,
+   "letter_count": 5,
+   "vowels": [
+    "e",
+    "i",
+    "a"
+   ],
+   "primary_phoneme": "ג",
+   "category": "stops",
+   "age_min": 4,
+   "age_max": 6,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🧀",
+   "image_kinds": [
+    "illustration",
+    "color",
+    "bw"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-140",
+   "text": "גֶּשֶׁר",
+   "plain_text": "גשר",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "e",
+    "e"
+   ],
+   "primary_phoneme": "ג",
+   "category": "stops",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🌉",
+   "image_kinds": [
+    "illustration"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-141",
+   "text": "גִּיטָרָה",
+   "plain_text": "גיטרה",
+   "syllable_count": 3,
+   "letter_count": 5,
+   "vowels": [
+    "i",
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "ג",
+   "category": "stops",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "concrete",
+   "emoji": "🎸",
+   "image_kinds": [
+    "illustration",
+    "color"
+   ],
+   "cultural_warning": false
+  },
+  {
+   "slug": "seed-142",
+   "text": "כַּעַס",
+   "plain_text": "כעס",
+   "syllable_count": 2,
+   "letter_count": 3,
+   "vowels": [
+    "a",
+    "a"
+   ],
+   "primary_phoneme": "כ",
+   "category": "stops",
+   "age_min": 5,
+   "age_max": 7,
+   "difficulty": "medium",
+   "abstractness": "abstract",
+   "emoji": "😠",
+   "image_kinds": [
+    "illustration",
+    "bw"
+   ],
+   "cultural_warning": false
+  }
+ ]
+}
