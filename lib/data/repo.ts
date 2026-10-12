@@ -1,5 +1,5 @@
 import type {
-  Category, CategoryInput, PendingUpload, Profile, Role, SearchFilters, SearchResult, SetDetail, SetSummary,
+  Category, CategoryInput, ProfessionalType, VerificationStatus, PendingUpload, Profile, Role, SearchFilters, SearchResult, SetDetail, SetSummary,
   UploadInput, Word, WordInput,
 } from "../types";
 
@@ -16,11 +16,12 @@ export interface Repo {
   getProfile(): Promise<Profile | null>;
   onAuthChange(cb: (p: Profile | null) => void): () => void;
   signIn(email: string, password: string): Promise<void>;
-  signUp(email: string, password: string, displayName: string): Promise<{ needsConfirmation: boolean }>;
+  signUp(email: string, password: string, displayName: string, pro?: { type: ProfessionalType; license: string }): Promise<{ needsConfirmation: boolean }>;
   signOut(): Promise<void>;
   resetPassword(email: string): Promise<void>;
   updatePassword(password: string): Promise<void>;
   updateDisplayName(name: string): Promise<void>;
+  submitLicense(type: ProfessionalType, license: string): Promise<void>;
 
   // library
   listCategories(): Promise<Category[]>;
@@ -52,6 +53,7 @@ export interface Repo {
   adminListWords(q: string, page: number, pageSize: number): Promise<SearchResult>;
   adminSaveWord(input: WordInput): Promise<void>;
   adminDeleteWord(id: string): Promise<void>;
+  adminReviewLicense(userId: string, status: VerificationStatus, note?: string): Promise<void>;
   adminSaveCategory(input: CategoryInput): Promise<void>;
   adminDeleteCategory(id: string): Promise<void>;
   sendTestEmail(): Promise<{ sent: boolean; reason?: string }>;

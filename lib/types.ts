@@ -5,12 +5,18 @@ export type ImageKind = "color" | "bw" | "illustration";
 export type Position = "start" | "middle" | "end";
 export type VowelGroup = "a" | "e" | "i" | "o" | "u";
 export type UploadStatus = "pending" | "approved" | "rejected";
+export type ProfessionalType = "slp" | "student" | "other";
+export type VerificationStatus = "none" | "pending" | "verified" | "rejected";
 
 export interface Profile {
   id: string;
   email: string;
   display_name: string;
   role: Role;
+  professional_type: ProfessionalType;
+  license_number: string | null;
+  verification_status: VerificationStatus;
+  verification_note: string | null;
   created_at: string;
 }
 

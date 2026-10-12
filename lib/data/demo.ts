@@ -1,7 +1,7 @@
 import seed from "@/data/seed-words.json";
 import { normLetter, stripNikud } from "../hebrew";
 import type {
-  Category, CategoryInput, PendingUpload, Profile, Role, SearchFilters, SetDetail, SetSummary, UploadInput, Word, WordImage, WordInput,
+  Category, CategoryInput, ProfessionalType, VerificationStatus, PendingUpload, Profile, Role, SearchFilters, SetDetail, SetSummary, UploadInput, Word, WordImage, WordInput,
 } from "../types";
 import { matchesFilters } from "./match";
 import { AppError, type Repo } from "./repo";
@@ -41,8 +41,8 @@ function initialState(): State {
   const t = now();
   return {
     users: [
-      { id: "u-demo", email: "demo@speechsearch.app", password: "demo1234", display_name: "מיכל", role: "clinician", created_at: t },
-      { id: "u-admin", email: "admin@speechsearch.app", password: "admin1234", display_name: "מנהלת", role: "admin", created_at: t },
+      { id: "u-demo", email: "demo@speechsearch.app", password: "demo1234", display_name: "מיכל", role: "clinician", professional_type: "slp", license_number: "123456", verification_status: "verified", verification_note: null, created_at: t },
+      { id: "u-admin", email: "admin@speechsearch.app", password: "admin1234", display_name: "מנהלת", role: "admin", professional_type: "other", license_number: null, verification_status: "none", verification_note: null, created_at: t },
     ],
     sessionUserId: null, words: seedWords(), sets: [], uploads: [],
   };
@@ -55,7 +55,11 @@ function load(): State {
   if (cache) return cache;
   try {
     const raw = localStorage.getItem(KEY);
-    if (raw) { cache = JSON.parse(raw) as State; return cache; }
+    if (raw) {
+      cache = JSON.parse(raw) as State;
+      cache.users.forEach((u) => { u.professional_type ??= "other"; u.license_number ??= null; u.verification_status ??= "none"; u.verification_note ??= null; });
+      return cache;
+    }
   } catch { /* fall through */ }
   cache = initialState();
   return cache;
@@ -94,16 +98,29 @@ export const demoRepo: Repo = {
     if (!u) throw new AppError("המייל או הסיסמה לא מתאימים. רוצי לאפס?", "bad_credentials");
     s.sessionUserId = u.id; save(); notify();
   },
-  async signUp(email, password, displayName) {
+  async signUp(email, password, displayName, pro) {
     const s = load();
     if (s.users.some((x) => x.email.toLowerCase() === email.trim().toLowerCase())) throw new AppError("כתובת המייל הזו כבר רשומה. אולי להתחבר?", "exists");
-    const u: DemoUser = { id: uid(), email: email.trim(), password, display_name: displayName.trim() || email.split("@")[0], role: "clinician", created_at: now() };
+    const u: DemoUser = { id: uid(), email: email.trim(), password, display_name: displayName.trim() || email.split("@")[0], role: "clinician", created_at: now(),
+      professional_type: pro?.type ?? "other", license_number: pro?.type === "slp" && pro.license.trim() ? pro.license.trim() : null,
+      verification_status: pro?.type === "slp" && pro.license.trim() ? "pending" : "none", verification_note: null };
     s.users.push(u); s.sessionUserId = u.id; save(); notify();
     return { needsConfirmation: false };
   },
   async signOut() { const s = load(); s.sessionUserId = null; save(); notify(); },
   async resetPassword() { /* demo: no email is sent */ },
   async updatePassword(password) { const u = requireMe(); u.password = password; save(); },
+  async submitLicense(type: ProfessionalType, license: string) {
+    const u = requireMe(); const lic = license.trim();
+    if (type === "slp" && !/^[0-9A-Za-z/-]{3,20}$/.test(lic)) throw new AppError("מספר הרישיון לא תקין (3–20 תווים: ספרות, אותיות באנגלית, / או -).", "license");
+    u.professional_type = type; u.license_number = type === "slp" ? lic : null;
+    u.verification_status = type === "slp" ? "pending" : "none"; u.verification_note = null; save(); notify();
+  },
+  async adminReviewLicense(userId: string, status: VerificationStatus, note?: string) {
+    requireAdmin(); const u = load().users.find((x) => x.id === userId); if (!u) return;
+    if (status === "rejected" && !note?.trim()) throw new AppError("צריך לכתוב סיבה קצרה לדחייה.", "reason");
+    u.verification_status = status; u.verification_note = status === "rejected" ? note!.trim() : null; save();
+  },
   async updateDisplayName(name) { const u = requireMe(); u.display_name = name.trim(); save(); notify(); },
 
   async listCategories() { return cats(); },
@@ -163,6 +180,7 @@ export const demoRepo: Repo = {
 
   async submitUpload(input, image) {
     const u = requireMe();
+    if (u.role !== "admin" && u.verification_status !== "verified") throw new AppError("העלאת מילים פתוחה לקלינאיות מאומתות בלבד.", "forbidden");
     const image_url = image ? await blobToDataUrl(image) : null;
     load().uploads.push({ ...input, id: uid(), submitted_by: u.id, image_url, status: "pending", rejection_reason: null, created_at: now() });
     save();
@@ -184,7 +202,7 @@ export const demoRepo: Repo = {
   },
 
   async listPendingUploads() { requireAdmin(); return load().uploads.filter((x) => x.status === "pending").sort((a, b) => a.created_at.localeCompare(b.created_at)).map(toUpload); },
-  async pendingCount() { const u = me(); return u?.role === "admin" ? load().uploads.filter((x) => x.status === "pending").length : 0; },
+  async pendingCount() { const u = me(); return u?.role === "admin" ? load().uploads.filter((x) => x.status === "pending").length + load().users.filter((x) => x.verification_status === "pending").length : 0; },
   async approveUpload(id) {
     requireAdmin(); const st = load(); const up = st.uploads.find((x) => x.id === id);
     if (!up || up.status === "approved") throw new AppError("הבקשה לא נמצאה או שכבר אושרה.", "bad_state");

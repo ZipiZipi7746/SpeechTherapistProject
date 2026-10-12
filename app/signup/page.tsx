@@ -5,6 +5,7 @@ import { useEffect, useState, type FormEvent } from "react";
 import { AuthCard, FieldError } from "@/components/auth/AuthCard";
 import { useAuth } from "@/components/providers/AuthProvider";
 import { useToast } from "@/components/providers/ToastProvider";
+import { ProfessionalFields, licenseError, useLicenseState } from "@/components/profile/LicenseForm";
 import { repo } from "@/lib/data";
 
 export default function SignupPage() {
@@ -17,6 +18,7 @@ export default function SignupPage() {
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
   const [confirmSent, setConfirmSent] = useState(false);
+  const pro = useLicenseState("slp", "");
 
   useEffect(() => { if (user) router.replace("/"); }, [user, router]);
 
@@ -24,9 +26,11 @@ export default function SignupPage() {
     e.preventDefault();
     setError("");
     if (password.length < 6) { setError("הסיסמה קצרה מדי — לפחות 6 תווים."); return; }
+    const le = licenseError(pro.type, pro.license);
+    if (le) { setError(le); return; }
     setBusy(true);
     try {
-      const { needsConfirmation } = await repo.signUp(email, password, name);
+      const { needsConfirmation } = await repo.signUp(email, password, name, { type: pro.type, license: pro.license });
       if (needsConfirmation) { setConfirmSent(true); setBusy(false); return; }
       toast.success("ברוכה הבאה ל-SpeechSearch! 🎉");
       router.replace("/search");
@@ -59,6 +63,7 @@ export default function SignupPage() {
           <input id="password" type="password" autoComplete="new-password" required minLength={6} className="input" dir="ltr" value={password} onChange={(e) => setPassword(e.target.value)} />
           <p className="mt-1.5 text-xs text-ink-faint">לפחות 6 תווים</p>
         </div>
+        <ProfessionalFields type={pro.type} license={pro.license} onType={pro.setType} onLicense={pro.setLicense} />
         <FieldError>{error}</FieldError>
         <button type="submit" disabled={busy || !name.trim() || !email || !password} className="btn btn-primary w-full">{busy ? "פותחת חשבון…" : "הצטרפי — חינם!"}</button>
       </form>

@@ -1,6 +1,6 @@
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import type {
-  Category, CategoryInput, PendingUpload, Profile, Role, SearchFilters, SetSummary, UploadInput, Word, WordInput,
+  Category, CategoryInput, ProfessionalType, VerificationStatus, PendingUpload, Profile, Role, SearchFilters, SetSummary, UploadInput, Word, WordInput,
 } from "../types";
 import { AppError, type Repo } from "./repo";
 
@@ -125,10 +125,10 @@ export const supabaseRepo: Repo = {
     const { error } = await sb().auth.signInWithPassword({ email: email.trim(), password });
     if (error) throw authError(error.message);
   },
-  async signUp(email, password, displayName) {
+  async signUp(email, password, displayName, pro) {
     const { data, error } = await sb().auth.signUp({
       email: email.trim(), password,
-      options: { data: { display_name: displayName.trim() }, emailRedirectTo: `${location.origin}/` },
+      options: { data: { display_name: displayName.trim(), professional_type: pro?.type ?? "other", license_number: pro?.license.trim() ?? "" }, emailRedirectTo: `${location.origin}/` },
     });
     if (error) throw authError(error.message);
     // Supabase returns an obfuscated user with no identities when the email already exists
@@ -260,8 +260,11 @@ export const supabaseRepo: Repo = {
     return (data ?? []).map(mapUpload);
   },
   async pendingCount() {
-    const { count } = await sb().from("pending_uploads").select("id", { count: "exact", head: true }).eq("status", "pending");
-    return count ?? 0;
+    const [{ count: uploads }, { count: licenses }] = await Promise.all([
+      sb().from("pending_uploads").select("id", { count: "exact", head: true }).eq("status", "pending"),
+      sb().from("profiles").select("id", { count: "exact", head: true }).eq("verification_status", "pending"),
+    ]);
+    return (uploads ?? 0) + (licenses ?? 0);
   },
   async approveUpload(id) {
     fail((await sb().rpc("approve_upload", { p_id: id })).error);
@@ -287,6 +290,15 @@ export const supabaseRepo: Repo = {
     fail(input.id ? (await sb().from("words").update(row).eq("id", input.id)).error : (await sb().from("words").insert(row)).error);
   },
   async adminDeleteWord(id) { fail((await sb().from("words").delete().eq("id", id)).error); },
+  async submitLicense(type: ProfessionalType, license: string) {
+    const { error } = await sb().rpc("submit_license", { p_license: license.trim(), p_type: type });
+    if (error?.message.includes("invalid license")) throw new AppError("מספר הרישיון לא תקין (3–20 תווים: ספרות, אותיות באנגלית, / או -).", "license");
+    fail(error);
+  },
+  async adminReviewLicense(userId: string, status: VerificationStatus, note?: string) {
+    fail((await sb().rpc("review_license", { p_user: userId, p_status: status, p_note: note ?? null })).error, "העדכון נכשל. ודאי שכתבת סיבה לדחייה.");
+    void notify({ type: "license", userId });
+  },
   async adminSaveCategory(input: CategoryInput) {
     const row = { name_he: input.name_he.trim(), description_he: input.description_he.trim() };
     if (!row.name_he) throw new AppError("חסר שם לקבוצה.", "name");

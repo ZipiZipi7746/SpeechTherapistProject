@@ -1,4 +1,4 @@
-import type { Abstractness, Difficulty, ImageKind, Position, VowelGroup } from "./types";
+import type { ProfessionalType, VerificationStatus, Abstractness, Difficulty, ImageKind, Position, VowelGroup } from "./types";
 
 export const ALPHABET = [
   "א", "ב", "ג", "ד", "ה", "ו", "ז", "ח", "ט", "י", "כ", "ל", "מ", "נ", "ס", "ע", "פ", "צ", "ק", "ר", "ש", "ת",
@@ -36,3 +36,17 @@ export const SET_COLOR_KEYS = Object.keys(SET_COLORS);
 export function ageLabel(min: number, max: number) {
   return min === max ? `${min}` : `${min}–${max}`;
 }
+
+export const PROFESSIONAL_LABEL: Record<ProfessionalType, string> = {
+  slp: "קלינאית תקשורת מורשית",
+  student: "סטודנטית להפרעות בתקשורת",
+  other: "אחר (גננת, מורה, מטפלת)",
+};
+export const VERIFICATION_LABEL: Record<VerificationStatus, string> = {
+  none: "לא אומת",
+  pending: "ממתין לאימות",
+  verified: "מאומתת",
+  rejected: "נדחה",
+};
+/** Hebrew-letters-free license format used by the DB check: 3–20 chars of digits, latin letters, / or - */
+export const LICENSE_PATTERN = /^[0-9A-Za-z/-]{3,20}$/;

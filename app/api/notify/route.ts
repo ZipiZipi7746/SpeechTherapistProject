@@ -14,7 +14,7 @@ export const runtime = "nodejs";
  * Without the env vars below the route is a harmless no-op that reports what is missing.
  */
 
-type Body = { type: "submitted"; uploadId: string } | { type: "reviewed"; uploadId: string } | { type: "test" };
+type Body = { type: "submitted"; uploadId: string } | { type: "reviewed"; uploadId: string } | { type: "license"; userId: string } | { type: "test" };
 type Result = { sent: boolean; reason?: string };
 
 const json = (r: Result, status = 200) => NextResponse.json(r, { status });
@@ -66,7 +66,7 @@ async function handle(req: Request) {
   if (!auth.user) return json({ sent: false, reason: "unauthorized" }, 401);
 
   const body = (await req.json().catch(() => null)) as Body | null;
-  if (!body || !["submitted", "reviewed", "test"].includes(body.type)) return json({ sent: false, reason: "bad request" }, 400);
+  if (!body || !["submitted", "reviewed", "license", "test"].includes(body.type)) return json({ sent: false, reason: "bad request" }, 400);
 
   const db = createClient(url!, service!, { auth: { persistSession: false } });
   const site = (process.env.NEXT_PUBLIC_SITE_URL ?? new URL(req.url).origin).replace(/\/$/, "");
@@ -77,6 +77,17 @@ async function handle(req: Request) {
   if (body.type === "test") {
     if (!(await isAdmin())) return json({ sent: false, reason: "forbidden" }, 403);
     return json(await sendMail(adminTo, "מייל בדיקה — SpeechSearch", layout("ההתראות עובדות ✅", "<p>אם את קוראת את זה, הגדרות המייל תקינות.</p>", { href: `${site}/admin`, label: "לממשק הניהול" })));
+  }
+
+  if (body.type === "license") {
+    if (!(await isAdmin())) return json({ sent: false, reason: "forbidden" }, 403);
+    const { data: p } = await db.from("profiles").select("email, display_name, verification_status, verification_note").eq("id", body.userId).maybeSingle();
+    if (!p?.email) return json({ sent: false, reason: "no recipient" });
+    if (p.verification_status === "verified")
+      return json(await sendMail(p.email, "הרישיון שלך אומת ✅", layout("הרישיון שלך אומת ✅", `<p>שלום ${esc(p.display_name)}, הרישיון המקצועי אומת. מעכשיו אפשר להוסיף מילים ותמונות למאגר.</p>`, { href: `${site}/upload`, label: "להוספת מילה" })));
+    if (p.verification_status === "rejected")
+      return json(await sendMail(p.email, "אימות הרישיון דורש תיקון", layout("אימות הרישיון דורש תיקון", `<p>שלום ${esc(p.display_name)}, לא הצלחנו לאמת את הרישיון.</p><p style="background:#fff1f1;padding:12px 16px;border-radius:12px"><b>הסיבה:</b> ${esc(p.verification_note)}</p><p>אפשר לתקן את המספר ולשלוח שוב מהפרופיל.</p>`, { href: `${site}/profile`, label: "לפרופיל שלי" })));
+    return json({ sent: false, reason: "not reviewed" });
   }
 
   const { data: up } = await db.from("pending_uploads")

@@ -7,11 +7,16 @@ import { useToast } from "@/components/providers/ToastProvider";
 import { Skeleton } from "@/components/ui/Skeleton";
 import { MyUploads } from "@/components/upload/MyUploads";
 import { UploadForm } from "@/components/upload/UploadForm";
+import Link from "next/link";
+import { useAuth } from "@/components/providers/AuthProvider";
+import { VerificationBadge } from "@/components/profile/LicenseForm";
 import { repo } from "@/lib/data";
 import type { Category, PendingUpload } from "@/lib/types";
 
 function UploadScreen() {
   const toast = useToast();
+  const { user, isAdmin } = useAuth();
+  const canUpload = isAdmin || user?.verification_status === "verified";
   const [tab, setTab] = useState<"new" | "mine">("new");
   const [categories, setCategories] = useState<Category[]>([]);
   const [mine, setMine] = useState<PendingUpload[] | null>(null);
@@ -36,7 +41,16 @@ function UploadScreen() {
         </button>
       </div>
 
-      {tab === "new" && (
+      {tab === "new" && !canUpload && !editing && (
+        <div className="card mt-6 p-8 text-center">
+          <div className="mb-3 text-4xl" aria-hidden>🔐</div>
+          <h2 className="text-xl font-extrabold">העלאת מילים פתוחה לקלינאיות מאומתות</h2>
+          <p className="mx-auto mt-2 max-w-md leading-relaxed text-ink-soft">כדי לשמור על איכות המאגר, רק קלינאיות עם רישיון מאומת של משרד הבריאות מוסיפות מילים. כל השאר — חיפוש, סטים והדפסה — פתוח לך כבר עכשיו.</p>
+          <p className="mt-3"><VerificationBadge status={user?.verification_status ?? "none"} /></p>
+          <Link href="/profile" className="btn btn-primary mt-5">להשלמת האימות בפרופיל</Link>
+        </div>
+      )}
+      {tab === "new" && (canUpload || !!editing) && (
         <div className="mt-6 space-y-4">
           <p className="flex items-center gap-2 rounded-2xl bg-cyan-50 px-4 py-3 text-sm font-medium text-cyan-900"><Info className="size-5 shrink-0" /> המילה תעבור אישור מנהלת לפני פרסום.</p>
           {editing && <p className="rounded-2xl bg-amber-50 px-4 py-3 text-sm text-amber-900"><b>מתקנות את ״{editing.text}״.</b> סיבת הדחייה: {editing.rejection_reason}</p>}
